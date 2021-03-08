@@ -1,20 +1,14 @@
-function menuToogle() {
-  let menuArea = document.getElementById("menu-area");
+let dia = "6";
+let diaNome = "";
 
-  if (menuArea.style.width == "200px") {
-    menuArea.style.width = "0px";
-  } else {
-    menuArea.style.width = "200px";
-  }
+switch (dia) {
+  case 6:
+  case 7:
+    diaNome = "Final de semana";
+    break;
+  default:
+    diaNome = "Dia de semana";
+    break;
 }
 
-/*  if (menuArea.classList.contains("menu-opened") == true) {
-    menuArea.classList.remove("menu-opened");
-  } else {
-    menuArea.classList.add("menu-opened");
-  }
-}*/
-
-/* no css: .menu-opened {
-/  width: 200px !important;
-}*/
+document.getElementById("dia").innerHTML = "Hoje é " + diaNome;
