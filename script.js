@@ -10,4 +10,10 @@ paseInt => faz os numeros descritos como Strings virarem
 numeros reais.
 
 ex: '25' + 5 = 255
-    25 + 5 = 30 */
+    25 + 5 = 30
+    parseFloat preserva os numeros com decimais
+    ex:
+    25.9 => 25 ( viram numeros inteiros)
+    
+    
+    */
