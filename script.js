@@ -1,19 +1,6 @@
-let n = "25";
+let lista = ["ovo", "corante", "farinha", "massa"];
 
-let res = parseInt(n) + 5;
-
-console.log(res);
-
-/* toString transforma numeros é Strings
-toFixed => faz os numeros quebrados terem casas decimais
-paseInt => faz os numeros descritos como Strings virarem
-numeros reais.
-
-ex: '25' + 5 = 255
-    25 + 5 = 30
-    parseFloat preserva os numeros com decimais
-    ex:
-    25.9 => 25 ( viram numeros inteiros)
-    
-    
-    */
+// lista.pop(remova o ultimo item da lista)
+//lista.shift(remove o primei item da lista)
+//lista.push(adiciona mais itens ao array)
+let res = lista;
