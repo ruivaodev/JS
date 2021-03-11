@@ -1,14 +1,13 @@
-let dia = "6";
-let diaNome = "";
+let n = "25";
 
-switch (dia) {
-  case 6:
-  case 7:
-    diaNome = "Final de semana";
-    break;
-  default:
-    diaNome = "Dia de semana";
-    break;
-}
+let res = parseInt(n) + 5;
 
-document.getElementById("dia").innerHTML = "Hoje é " + diaNome;
+console.log(res);
+
+/* toString transforma numeros é Strings
+toFixed => faz os numeros quebrados terem casas decimais
+paseInt => faz os numeros descritos como Strings virarem
+numeros reais.
+
+ex: '25' + 5 = 255
+    25 + 5 = 30 */
