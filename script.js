@@ -5,7 +5,7 @@ let lista2 = [];
   return item * 2;
 });*/
 
-lista2 = lista.filter(function (item) {
+lista2 = lista.every(function (item) {
   if (item < 20) {
     return true;
   } else {
